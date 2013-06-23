@@ -23,7 +23,7 @@
     <meta name="author" content="Stellan Lindell" />
   </head>
   <body>
-    <a href="#U1Modal" class="btn btn-primary" role="button" data-toggle="modal">ModalButton</a>
+    <a href="#U1Modal" id="U1ModalBtn" class="btn btn-primary" role="button" data-toggle="modal">ModalButton</a>
     <button id="jQueryDIVBtn" class="btn btn-secondary">Add jQuery-DIV</button>
     <div id="touchContent">
       <p>Touch Elements</p>
@@ -36,7 +36,7 @@
         <h2 class="U1ModalLabel">MY MODAL</h2>
       </div>
       <div id="U1ModalBody" class="modal-body">
-        This is my Bootstrap-modal.
+        This is my Bootstrap-modal. The modal has been opened <span id="NrOfTimesModalOpened">0</span> times.
       </div>
       <div id="U1ModalFooter" class="modal-body">
         <button class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">CLOSE MODAL</button>

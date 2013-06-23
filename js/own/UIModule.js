@@ -15,6 +15,9 @@ var uiObject = function () {
     AddDIV: (function () {
       if (!$('#addedByjQueryDIV').length)
         $('body').append("<div id='addedByjQueryDIV'>Added by jQuery.</div>");
+    }),
+    ShowNrOfTimesModalOpened: (function (NrOfTimesModalOpened) {
+      $('#NrOfTimesModalOpened').text(NrOfTimesModalOpened);
     })
   };
 };

@@ -21,4 +21,9 @@ $(document).ready(function () {
   $('#jQueryDIVBtn').click(function (event) {
     UI.AddDIV();
   });
+
+  $('#U1ModalBtn').click(function (event) {
+    func.NrOfTimesModalOpened++;
+    UI.ShowNrOfTimesModalOpened(func.NrOfTimesModalOpened);
+  });
 });

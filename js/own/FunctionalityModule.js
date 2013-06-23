@@ -8,6 +8,6 @@ console.log("FuncObj");
 
 var fuctionalityObject = function () {
   return {
-    
+    NrOfTimesModalOpened: 0
   };
 };

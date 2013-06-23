@@ -12,9 +12,11 @@ var uiObject = function () {
       if(!Modernizr.touch)
         $('#touchContent').text("This element requires Touch");
     }),
-    AddDIV: (function () {
+    AddDIV: (function (NrOfTimesjQueryDIVOpened) {
       if (!$('#addedByjQueryDIV').length)
-        $('body').append("<div id='addedByjQueryDIV'>Added by jQuery.</div>");
+        $('body').append("<div id='addedByjQueryDIV'>Added by jQuery. Button has been pressed <span id='NrOfTimesjQueryDIVOpened'>" + NrOfTimesjQueryDIVOpened + "</span> times.</div>");
+      else
+        $('#NrOfTimesjQueryDIVOpened').text(NrOfTimesjQueryDIVOpened);
     }),
     ShowNrOfTimesModalOpened: (function (NrOfTimesModalOpened) {
       $('#NrOfTimesModalOpened').text(NrOfTimesModalOpened);

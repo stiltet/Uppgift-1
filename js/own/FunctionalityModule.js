@@ -8,6 +8,7 @@ console.log("FuncObj");
 
 var fuctionalityObject = function () {
   return {
-    NrOfTimesModalOpened: 0
+    NrOfTimesModalOpened: 0,
+    NrOfTimesjQueryDIVOpened: 0
   };
 };

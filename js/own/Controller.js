@@ -19,7 +19,8 @@ $(document).ready(function () {
   UI.TouchContent();
 
   $('#jQueryDIVBtn').click(function (event) {
-    UI.AddDIV();
+    func.NrOfTimesjQueryDIVOpened++;
+    UI.AddDIV(func.NrOfTimesjQueryDIVOpened);
   });
 
   $('#U1ModalBtn').click(function (event) {

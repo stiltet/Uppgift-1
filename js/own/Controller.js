@@ -16,5 +16,4 @@ $(document).ready(function () {
   var UI = uiObject();
   var func = fuctionalityObject();
 
-
 });

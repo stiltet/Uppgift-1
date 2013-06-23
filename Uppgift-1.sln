@@ -1,18 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Uppgift-1", "Uppgift-1.phpproj", "{B5ADB8CD-189A-43FD-A53E-19415B0BCC61}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Uppgift-1", ".", "{E2A7C8D6-34CD-48F8-87EF-BC54E7F48D6E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Uppgift-1(1)"
+		Debug.AspNetCompiler.PhysicalPath = "..\Uppgift-1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Uppgift-1(1)\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Uppgift-1(1)"
+		Release.AspNetCompiler.PhysicalPath = "..\Uppgift-1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Uppgift-1(1)\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21500"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5ADB8CD-189A-43FD-A53E-19415B0BCC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5ADB8CD-189A-43FD-A53E-19415B0BCC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5ADB8CD-189A-43FD-A53E-19415B0BCC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5ADB8CD-189A-43FD-A53E-19415B0BCC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A7C8D6-34CD-48F8-87EF-BC54E7F48D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A7C8D6-34CD-48F8-87EF-BC54E7F48D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

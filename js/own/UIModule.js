@@ -8,6 +8,9 @@ console.log("UI");
 
 var uiObject = function () {
   return {
-
+    TouchContent: (function (show) {
+      if(!Modernizr.touch)
+        $('#touchContent').text("This element requires Touch");
+    })
   };
 };

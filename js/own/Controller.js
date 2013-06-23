@@ -16,4 +16,8 @@ $(document).ready(function () {
   var UI = uiObject();
   var func = fuctionalityObject();
 
+  console.log(Modernizr.touch);
+
+  UI.TouchContent();
+
 });

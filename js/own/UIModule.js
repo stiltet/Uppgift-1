@@ -8,9 +8,13 @@ console.log("UI");
 
 var uiObject = function () {
   return {
-    TouchContent: (function (show) {
+    TouchContent: (function () {
       if(!Modernizr.touch)
         $('#touchContent').text("This element requires Touch");
+    }),
+    AddDIV: (function () {
+      if (!$('#addedByjQueryDIV').length)
+        $('body').append("<div id='addedByjQueryDIV'>Added by jQuery.</div>");
     })
   };
 };
